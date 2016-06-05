@@ -1,0 +1,316 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #878487;
+}
+
+#logo {
+	display: block;
+    margin: 0 auto;
+	width: 15em;
+	height: 15em;
+}
+
+#tagline {
+	margin-top: 1em;
+	text-align: center;
+	color: #00ff00;
+}
+
+
+/* Begin navigatie */
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navbar li {
+	float: left;
+}
+
+ul.navbar li.LoginEnAanmelden {
+	float: right;
+}
+
+ul.navbar li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.navbar li a:hover {
+	background-color: #111;
+}
+
+ul.navbar li.icon {
+	display: none;
+}
+
+@media screen and (max-width:980px) {
+  ul.navbar li:not(:first-child) {
+	  display: none;
+  }
+	
+  ul.navbar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:980px) {
+  ul.navbar.responsive {position: relative;}
+  ul.navbar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.navbar.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.navbar.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Einde navigatie */
+/* slideshow */
+#slideshow img {
+max-width:90%;
+max-height:90%;
+}
+
+#slideshow {
+	margin-top: 8em;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: black;
+	height: 50%;
+	width: 50%;
+
+	text-align: center;
+	height:auto;
+	overflow:auto;
+}
+
+#Showcontainer {
+	width: 25%;
+	height: 25%;
+}
+
+#wit {
+	color: white;
+	text-align: center;
+}
+
+#slide {
+	margin: 1em;
+	margin-bottom: 0.5em;
+}
+
+#backButton {
+	background-color: #00ff00;
+	color: black;
+	margin: 1em;
+	margin-bottom: 0em;
+}
+
+#forwardButton {
+	background-color: #00ff00;
+	color: black;
+	margin: 1em;
+	margin-bottom: 0em;
+}
+
+#backButton:hover {
+	cursor: pointer;
+	background-color: #7fa724;
+}
+
+#forwardButton:hover {
+	cursor: pointer;
+	background-color: #7fa724;
+}
+/* einde slideshow */
+/* footer */
+
+footer {
+	margin-top: 8em;
+	background-color: black;
+	color: #00ff00;
+	text-decoration: none;
+	clear: both;
+}
+
+footer ul li a {
+	color: #00ff00;
+	text-decoration: none;
+	list-style: none;
+}
+
+footer ul li input {
+	color: #00ff00;
+	text-decoration: none;
+	list-style: none;
+}
+
+footer ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+#footer {
+	
+}
+
+#Brief {
+	list-style-type: none;
+}
+
+#nieuwsbrief {
+	display: inline-block;
+	vertical-align: top;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+
+#nieuwsbrief1 {
+	background-color: #00ff00;
+	color: black;
+}
+
+#nieuwsbrief2 {
+	background-color: #00ff00;
+	color: black;
+}
+
+#nieuwsbrief2:hover {
+	background-color: #7fa724;
+	color: black;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+	color: #00ff00;
+}
+
+#socialmedia {
+	margin-top: 0;
+}
+
+#socialmedia:hover {
+	cursor: pointer;
+}
+
+.FooterH4 {
+	list-style-type: none;
+}
+
+/* Producten */
+.items {
+	background-color: black;
+	width: 400px;
+	height: 200px;
+	margin: 5em;
+	margin-left: 7%;
+	display: inline-block;
+}
+.plaatje
+{
+	width: 200px;
+	height: 180px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.prijs
+{
+	color: #00ff00;
+	margin-left: 300px;
+	margin-top: -190px;
+}
+.info
+{
+	width: 180px;
+	color: #00ff00;
+	margin-left: 220px;
+	margin-top: -15px;
+}
+.swinkelwagentje
+{
+	width: 80px;
+	height: 50px;
+	margin-left: 320px;
+}
+
+/* over acme */
+
+#Overacme {
+	background-color: limegreen;
+}
+
+#Overacme h1 {
+	text-align: center;
+}
+
+#Overacme h2 {
+
+}
+
+
+/* responsive  responsive responsive responsive responsive responsive responsive  */
+/* producten */
+@media screen and (max-width:1280px) {
+	.items {
+		background-color: black;
+		width: 400px;
+		height: 200px;
+		margin: 5em;
+		margin-left: 10%;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:980px) {
+	.items {
+		background-color: black;
+		width: 400px;
+		height: 200px;
+		margin: 3em;
+		margin-left: 30%;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:980px) {
+	.items {
+		background-color: black;
+		width: 400px;
+		height: 200px;
+		margin: 3em;
+		margin-left: 25%;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:360px) {
+	.items {
+		background-color: black;
+		width: 400px;
+		height: 200px;
+		margin: 1em;
+		margin-left: 0;
+		display: inline-block;
+	}
+}
